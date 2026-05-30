@@ -47,9 +47,9 @@ function JoinGame() {
       });
 
       // await tx.wait();
-      const receipt = await tx.wait();
+       const receipt = await tx.wait();
 
-      console.log("tx hash",receipt.hash);
+      console.log("tx hash", receipt.hash);
 
       alert("Joined Successfully");
     } catch (err) {
